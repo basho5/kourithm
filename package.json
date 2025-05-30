@@ -12,11 +12,14 @@
   "dependencies": {
     "gray-matter": "^4.0.3",
     "katex": "^0.16.22",
+    "markdown-it-container": "^4.0.0",
     "react": "^19.1.0",
     "react-dom": "^19.1.0",
     "react-markdown": "^10.1.0",
     "react-router-dom": "^7.6.1",
     "rehype-katex": "^7.0.1",
+    "rehype-raw": "^7.0.0",
+    "remark-admonitions": "^1.2.1",
     "remark-gfm": "^4.0.1",
     "remark-math": "^6.0.0"
   },

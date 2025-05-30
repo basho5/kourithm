@@ -29,7 +29,39 @@ const articlesData = [
     excerpt: "無限に続く素数たち。その分布の謎や未解決問題に触れてみましょう。",
     tags: ["素数", "数論", "未解決問題"],
   },
-  // 他の記事のメタデータを追加
+  {
+    slug: "pi-story",
+    title: "π (円周率) の終わらない物語",
+    date: "2025-05-29", // 新しい日付
+    category: "数論", // または「幾何学」
+    excerpt:
+      "円の神秘を秘めた数、π。その桁はどこまで続くのか？古代から現代までのπ探求の歴史を辿ります。",
+    tags: ["円周率", "無理数", "超越数", "数学史"],
+  },
+  {
+    slug: "dp-on-graphs",
+    title: "グラフ上のDPの様々な例題 (Educational DP Contestより)",
+    date: "2025-05-28", // 今日の日付
+    category: "アルゴリズム", // または "動的計画法"
+    excerpt:
+      "Educational DP Contest の問題を通して、グラフ上の様々な動的計画法 (DP) のパターンを解説します。",
+    tags: [
+      "DP",
+      "グラフ理論",
+      "アルゴリズム",
+      "競技プログラミング",
+      "Educational DP Contest",
+    ],
+  },
+  {
+    slug: "mock-exam-solutions",
+    title: "入学試験（数学〈理科〉） 模擬試験 解答・解説",
+    date: "2025-05-28",
+    category: "試験対策",
+    excerpt:
+      "入学試験（数学〈理科〉）の模擬試験の全6問について、解答と詳しい解説をまとめました。",
+    tags: ["入試対策", "数学", "模試", "解答解説"],
+  },
 ];
 
 export const getAllArticles = () => {

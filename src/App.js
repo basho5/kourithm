@@ -1,14 +1,13 @@
-// src/App.jsx
+// src/App.js
 import React from "react";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
-import Layout from "./components/Layout.jsx";
-// import Layout from "./components/Layout";
+import Layout from "./components/Layout";
 import HomePage from "./pages/HomePage";
 import ArticlePage from "./pages/ArticlePage";
 import CategoryPage from "./pages/CategoryPage";
 import AboutPage from "./pages/AboutPage";
 import NotFoundPage from "./pages/NotFoundPage";
-import "./index.css"; // グローバルCSSをインポート
+import "./App.css";
 
 function App() {
   return (
@@ -19,7 +18,7 @@ function App() {
           <Route path="/article/:slug" element={<ArticlePage />} />
           <Route path="/category/:categoryName" element={<CategoryPage />} />
           <Route path="/about" element={<AboutPage />} />
-          <Route path="*" element={<NotFoundPage />} />
+          <Route path="*" element={<NotFoundPage />} /> {/* 404 Not Found */}
         </Routes>
       </Layout>
     </Router>

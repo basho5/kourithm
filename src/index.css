@@ -476,3 +476,19 @@ p {
   font-size: 0.9rem;
   margin-top: auto;
 }
+
+.admonition {
+  border-left: 4px solid #81e6d9;
+  background: #e6fffa;
+  padding: 1rem;
+  border-radius: 4px;
+  margin: 1.5rem 0;
+}
+.admonition-info {
+  border-color: #3182ce;
+  background: #ebf8ff;
+}
+.admonition-title {
+  font-weight: bold;
+  margin-bottom: 0.5rem;
+}
