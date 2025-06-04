@@ -70,6 +70,24 @@ const articlesData = [
     excerpt: "All About Integer",
     tags: ["整数論"],
   },
+  {
+    slug: "persistent-data-structures",
+    title: "永続データ構造の基礎",
+    date: "2025-05-31",
+    category: "アルゴリズム",
+    excerpt:
+      "破壊的更新を避けて複数のバージョンを保持するデータ構造の考え方を解説します。",
+    tags: ["データ構造", "永続化", "競技プログラミング"],
+  },
+  {
+    slug: "miller-rabin",
+    title: "Miller–Rabin 素数判定法",
+    date: "2025-06-01",
+    category: "アルゴリズム",
+    excerpt:
+      "高速でよく用いられる確率的素数判定法の仕組みと実装を解説します。",
+    tags: ["数論", "アルゴリズム", "素数判定"],
+  },
 ];
 
 export const getAllArticles = () => {
