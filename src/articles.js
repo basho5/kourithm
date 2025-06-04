@@ -62,6 +62,14 @@ const articlesData = [
       "入学試験（数学〈理科〉）の模擬試験の全6問について、解答と詳しい解説をまとめました。",
     tags: ["入試対策", "数学", "模試", "解答解説"],
   },
+  {
+    slug: "takagi-integers",
+    title: "整数について — 高木貞治『初等整数論講義』",
+    date: "2025-05-30",
+    category: "整数論",
+    excerpt: "All About Integer",
+    tags: ["整数論"],
+  },
 ];
 
 export const getAllArticles = () => {
